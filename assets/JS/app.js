@@ -27,7 +27,7 @@ var questions = [
   }
 ];
 
-$("#start").click(function getGoing(){
+$("#getStarted").click(function getGoing(){
   var x = document.getElementsByClassName("start");
   if (x.style.display === "none") {
     x.style.display = "block";
@@ -35,6 +35,10 @@ $("#start").click(function getGoing(){
     x.style.display = "none";
   }
 })
+
+function hiScores() {
+  window.open("https://www.w3schools.com");
+}
 
 
 var quizContainer = $('container');
