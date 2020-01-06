@@ -63,7 +63,9 @@ footer {
   .clock {
     position: absolute;
     top: 10px;
-    right: 10px;
+    left: 10px;
+    color: white;
+    font-weight: bold;
   }
 
   .choices button {
@@ -72,4 +74,28 @@ footer {
 
   button:hover {
     background-color: #8570a5;
+  }
+  
+  .choices button {
+    display: block;
+  }
+  
+  input[type="text"] {
+    font-size: 100%;
+  }
+  
+  
+  
+  li {
+    padding: 5px;
+    list-style: decimal inside none;
+  }
+  
+  li:nth-child(odd) {
+    background-color: #f3edfc;
+  }
+  
+  #questions{
+    margin-top: 100px;
+    text-align: center;
   }
